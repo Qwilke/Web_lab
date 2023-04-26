@@ -1,0 +1,148 @@
+body {
+	background-color: #80efef;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: Comic Sans MS;
+}
+
+body h1 {
+	margin-left: 45%;
+}
+body h2 {
+	margin-left: 47%;
+}
+body h3 {
+	margin-left: 28%;
+}
+
+#outerShell {
+	width: 98%;
+	height: 400px;
+	margin: 10px 1% 10px 1% ;
+	border: 0px solid silver;
+	border-radius: 5px;
+	background-color: #ffffff;
+	display: flex; 
+	padding: 0;
+}
+
+.borderChannel {
+	height: 92%;
+	width: 24%;
+	border: 1px solid silver;
+	border-radius: 5px;
+	margin: 1% 1% 1% 1%;
+	padding: 0;
+	box-shadow: 10px 5px 5px silver;
+}
+
+.clear {
+	float: left;
+	clear: both;
+}
+
+.footerChannel {
+	height: 10%;
+	width: 100%;
+	border-bottom: 0px solid silver;
+}
+
+.footerChannel span {
+	font-size: 20px;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	margin-left: 2%;
+}
+
+.infoChannel {
+	border: 0px solid silver;
+	height: 80%;
+	width: 100%;
+	padding: 0;
+}
+
+.infoChannel span {
+	padding: 2%;
+}
+
+.btn {
+	border: 0px solid silver;
+	width: 100%;
+	height: 10%;
+	cursor: pointer;
+	background-color: #4e86ab;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.btn:hover {
+	background-color:#b96dd5;
+}
+
+.showInfo {
+	width: 1000px;
+	min-height: 500px;
+	border: 0px solid silver;
+	border-radius: 5px;
+	padding: 0;
+	float: left;
+	background-color: #fafafa;
+	margin-left: 275px;
+}
+
+.TVShow {
+	border: 1px solid silver;
+	border-radius: 5px;
+	width: 100%;
+	height: 100px;
+	padding: 0;
+	float: left;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	display: flex;
+}
+
+.btn_2 {
+	border: 0.5px solid silver;
+	width: 200px;
+	height: 40px;
+	cursor: pointer;
+	background-color: #fafafa;
+	border-radius: 5px;
+	padding: 10px;
+	float: left;
+	margin-left: 1076px;
+}
+
+.btn_2:hover {
+	background-color:#eaff08;
+}
+
+.nameTVprogram {
+	border-right: 1px solid silver;
+	height: 100%;
+	width: 20%;
+}
+
+.infoTVprogram {
+	border-right: 1px solid silver;
+	height: 100%;
+	width: 60%;
+}
+
+.timeTVprogram {
+	height: 100%;
+	width: 20%;
+}
+
+.nameTVprogram span, .infoTVprogram span, .timeTVprogram span{
+	margin-left: 10px;
+}
+
+.fig {
+	text-align: center;
+}
