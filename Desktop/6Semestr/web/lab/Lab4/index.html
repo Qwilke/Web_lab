@@ -1,52 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"> <!-- Установка кодировки документа -->
-		<link rel="stylesheet" href="style.css"> <!-- Подключение внешних дополнительных файлов -->
-		<link rel="shortcut icon" href="image_icon/icon.png" type="image/x-icon">
-		<title>Галеря искусств</title> <!-- Заголовок страницы -->
-</head>
-
-    <body>
-        <header>
-            <h1>QWILKEINS</h1>
-            <nav>
-            <a href="#">Художники</a> |
-            <a href="#">Картины</a> |
-            <a href="#">Жанры</a>
-            </nav>
-        </header>
+  <head>
+    <title>Qwilkeins</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+      <h1>Галерея искусств</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
     <main>
-          
-           <h3>
-            <p>Живопись - это искусство выражения неведимого через видимое (Эжен Фромантен)</p>
-            Почему людям нужно духовное просвещение?
-            <ul>
-            <li>Живопись - это искусство на которое можно смотреть</li>
-            <li>Скульптура - это искусство, вокруг которого можно обойти</li>
-            <li>Архитектура - искусство, сквозь которое можно пройти</li>
-            </ul>
-            <img src="C:\Users\user\Desktop\6 Семестр\веб\Лабы\Лаба3\я.jpg" alt="Изображение греческой статуи" width="300" height="300">
-            </h3>
-        </main>
+      <div class="tabs">
+        <a href=""><span class="tablinks">Художники (популярные)</span></a>
+        <a href=""><span class="tablinks">Художникики (непопулярные)</span></a>
+        <a href=""><span class="tablinks">Добавление</span></a>
+      </div>
+      <div class="tabcontent active">
 
-        <footer>
-            <div class="contact">
-                <h4>Вы человек искусства? Пишите нам!!</h4>
-                <p>QWILKEINS</p>
-                <p>Казань, Россия</p>
-            </div>
-            <div class="sitemap">
-                <h5>Карта сайта</h5>
-                <ul>
-                    <li><a href="#">Домой</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Право</a></li>
-                    <li><a href="#">Техподдержка</a></li>
-                    <li><a href="C:\Users\user\Desktop\6 Семестр\веб\Лабы\Лаба4\ВИО.html">ВиО</a></li>
-                    <li><a href="#">Вакансии</a></li>
-                </ul>
-            </div>
-        </footer>
-    </body>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>Искусство — самый прекрасный, самый строгий, самый радостный и благой символ извечного, не подвластного рассудку стремления человека к добру, к истине и совершенству. (Т. Манн)
+          Меняются приемы творчества, но никогда не может умереть или устареть душа, вложенная в создание искусства. Если язык стихотворения еще позволяет прочесть, если по собранным обломкам можно уловить намерение ваятеля, то не умерла душа творца и для нас живущих.
+
+          
+          </p>
+      <p>© 2023 Галерея искусств Qwilkeins</p>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
