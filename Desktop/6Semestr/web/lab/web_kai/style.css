@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+header nav {
+  margin-top: 10px;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav li {
+  margin-right: 20px;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.tabs {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.tablinks {
+  background-color: #f1f1f1;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.tablinks:hover {
+  background-color: #ddd;
+}
+
+.tablinks.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontent.active {
+  display: block;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  max-width: 30%;
+
+}
+button{
+  margin-top: 10px;
+  max-width: 10%;
+}
+
+label{
+  margin-top: 10px; 
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 200px;
+  max-height: 200;
+  border-radius: 10px;
+}
+
+li{
+  margin: 10px;
+}
+
+.float-right{
+  float: right;
+}
+
+.hover {
+  background: #0077FF;
+  color: #fff;
+}
+
+.inputStyleDescription {
+  border-radius: 3px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 363px;
+}
+
+.inputStyleTags {
+  border-radius: 3px;
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 363px;
+}
+
+.buttonStyle {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 279px;
+  background: #fff;
+  border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "1972",
+    "category": "Реализм",
+    "price": "$2,500 per month",
+    "location": "New York, NY",
+    "description": "Spacious 2-bedroom apartment with stunning views of the city skyline. Located in the heart of downtown and just steps away from public transportation and major attractions. Amenities include a gym, pool, and 24-hour doorman.",
+    "image": "forDiscord.jpg",
+    "tags": ["Реализм", "luxury", "apartment", "rental"]
+  },
+  {
+    "title": "1652",
+    "category": "Сюрреализм",
+    "price": "$200",
+    "location": "San Francisco, CA",
+    "description": "Blue Trek bicycle in excellent condition. Suitable for road or trail riding. Comes with a lock and helmet. Selling because I'm moving out of the country.",
+    "image": "forDiscord.jpg",
+    "tags": ["Реализм", "sporting goods", "used", "sale"]
+  },
+  {
+    "title": "1999",
+    "category": "Модернизм",
+    "price": "$50 for the lot",
+    "location": "Chicago, IL",
+    "description": "Collection of 20 vintage vinyl records in various genres, including rock, jazz, and blues. All records are in good condition and come with their original sleeves. Selling as a lot only.",
+    "image": "forDiscord.jpg",
+    "tags": ["Реализм", "vinyl", "records", "vintage", "sale"]
+  },
+  {
+    "title": "1300",
+    "category": "Постмодернизм",
+    "price": "$800",
+    "location": "Boston, MA",
+    "description": "Beautiful mahogany writing desk with intricate carvings and brass hardware. Features a leather writing surface and multiple drawers for storage. In excellent condition, a true piece of craftsmanship.",
+    "image": "forDiscord.jpg",
+    "tags": ["Реализм", "desk", "antique", "writing", "sale"]
+  },
+  {
+    "title": "1599",
+    "category": "Артхаус",
+    "price": "$1,500",
+    "location": "Los Angeles, CA",
+    "description": "Canon EOS 5D Mark IV professional DSLR camera with 24-105mm lens. Used only a handful of times, in like-new condition. Comes with original box, manuals, and accessories.",
+    "image": "forDiscord.jpg",
+    "tags": ["Реализм", "camera", "dslr", "professional", "sale"]
+  },
+  {
+    "title": "1399",
+    "category": "Современность",
+    "price": "$500",
+    "location": "Miami, FL",
+    "description": "Stylish and elegant designer handbag from a top luxury brand. Made of high-quality leather with gold-tone hardware. Brand new with tags, never been used.",
+    "image": "forDiscord.jpg",
+    "tags": ["Реализм", "handbag", "designer", "luxury", "sale"]
+  }
+]
